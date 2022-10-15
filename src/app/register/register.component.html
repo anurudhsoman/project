@@ -1,0 +1,25 @@
+<form [formGroup]="Signupform" (ngSubmit)="signup()" method="post" >
+    <div class="container">
+      <h1>Register</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+  
+      <label for="name"><b>Name</b></label>
+      <input formControlName="name"  type="text" placeholder="Enter Name" name="name" id="name1" required>
+  
+      <label for="email"><b>email</b></label>
+      <input  formControlName="email" type="text" placeholder="enter mail" name="email" id="email" required>
+  
+      <label for="psw-repeat"><b>Password</b></label>
+      <input formControlName="password"  type="password" placeholder="Password" name="password" id="psw-repeat" required>
+      <hr>
+  
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+      <button type="submit" class="registerbtn">Register</button>
+    </div>
+  
+    <div class="container signin">
+      <p>   Already have an account? <a href="#" ></a>.</p>
+      <button  routerLink="/signin"  type="submit" class="">signin</button>
+    </div>
+  </form>

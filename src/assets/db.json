@@ -1,0 +1,31 @@
+{
+  "employee": [
+    {
+      "id": 100,
+      "name": "steve",
+      "DOB": "10-10-2000",
+      "salary": 35000,
+      "email": "steve@example.com"
+    }
+  ],
+  "user": [
+    {
+      "name": "asi",
+      "email": "uiahsc",
+      "password": "oias",
+      "id": 1
+    },
+    {
+      "name": "aswin",
+      "email": "aswin@sfjb",
+      "password": "oias",
+      "id": 2
+    },
+    {
+      "name": "nikhil",
+      "email": "aswin@sfjb",
+      "password": "oias",
+      "id": 3
+    }
+  ]
+}
