@@ -1,5 +1,15 @@
 # Project
 
+
+---------------------------------------------------------------------------------------------
+## DESCIPTION
+---------------------------------------------------------------------------------------------
+
+This project summarize the implementation and working of authentication , api call ,live project using json ,
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
 
 ## Development server
